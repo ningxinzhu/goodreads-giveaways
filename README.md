@@ -1,23 +1,22 @@
 # goodreads-giveaways
-Auto enter giveaways in Goodreads.
+
+___Important___: Before running the script, make sure you've entered a giveaway manually _at least once_. The first time involves _setting up a new address_, and the script assumes that it's done. Also, if you have multiple addresses set-up, the script takes the first one. 
 
 ## Installation and Set-up
 
 Clone the repo and install the pre-reqs.
 ```console
-git clone https://github.com/SkullTech/goodreads-giveaways.git
+sudo git clone https://github.com/SkullTech/goodreads-giveaways.git
+sudo apt-get install python3-lxml
 cd goodreads-giveaways
 pip3 install -r requirements.txt
 ```
-
-___Important___: Before running the script, make sure you've entered a giveaway manually _at least once_. The first time involves _setting up a new address_, and the script assumes that it's done. Also, if you have multiple addresses set-up, the script takes the first one. 
 
 ## Usage
 
 Run the script from the terminal like the following example.
 
-```console
-~/Documents/goodreads-giveaways  master ✔                                0m  
+```console 
 ▶ python3 giveaways.py
 [?] Enter your Goodreads username: sumit.ghosh**@gmail.com
 [?] Enter your Goodreads password: 
